@@ -1,1 +1,1 @@
-# ORANGE
+This project is the implementation of ORANGE (PREdictive processMIning basEd on tRace imagEs) approach described in the paper Convolutional Neural Networks for Outcome-Oriented Predictive Process Monitoring.
