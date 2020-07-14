@@ -60,7 +60,7 @@ model.summary()
 from sklearn.model_selection import train_test_split
 X_train, X_val, Y_train, Y_val = train_test_split(X_train, y_train, test_size=0.2, random_state=42, stratify=y_train, shuffle=True)
 
-opt = Adam(lr = argv[2])
+opt = Adam(lr = float(argv[2]))
 model.compile(optimizer=opt, loss= 'binary_crossentropy', metrics=['accuracy'])
 early_stopping = EarlyStopping(monitor='val_loss', patience=20)
 model_checkpoint = ModelCheckpoint("dataset/"+dataset_name+"/"+'model_{epoch:02d}-{val_loss:.2f}.h5', monitor='val_loss', verbose=0,
@@ -68,5 +68,5 @@ model_checkpoint = ModelCheckpoint("dataset/"+dataset_name+"/"+'model_{epoch:02d
 lr_reducer = ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=10, verbose=0, mode='auto',
                                    min_delta=0.0001, cooldown=0, min_lr=0)
 
-model.fit(X_train, Y_train, epochs=200, batch_size=argv[3], verbose=0, callbacks=[early_stopping, lr_reducer], validation_data=[X_val, Y_val])
+model.fit(X_train, Y_train, epochs=200, batch_size=int(argv[3]), verbose=0, callbacks=[early_stopping, lr_reducer], validation_data=[X_val, Y_val])
 print("Train complete")

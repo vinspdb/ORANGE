@@ -4,10 +4,10 @@ import pandas as pd
 from sklearn.metrics import f1_score, roc_auc_score
 import pickle as pk
 import os
+from sys import argv
 
 os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
-
-dataset_name = 'bpic2012_declined'#argv[1]
+dataset_name = argv[1]
 
 model = load_model("dataset/"+dataset_name+"/"+dataset_name+".h5")
 pd_len = pd.read_csv("dataset/"+dataset_name+"/len_test"+dataset_name+".csv")
