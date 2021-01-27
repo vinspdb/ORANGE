@@ -4,7 +4,7 @@
 
 *Vincenzo Pasquadibisceglie, Annalisa Appice, Giovanna Castellano, Donato Malerba, Giuseppe Modugno*
 
-[*ORANGE: Outcome-Oriented Predictive Process Monitoring Based on Image Encoding and CNNs*](https://ieeexplore.ieee.org/abstract/document/9325056)
+[*ORANGE: Outcome-Oriented Predictive Process Monitoring Based on Image Encoding and CNNs*](https://ieeexplore.ieee.org/document/9216173)
 
 Please cite our work if you find it useful for your research and work.
 ```
