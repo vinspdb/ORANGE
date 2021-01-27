@@ -1,6 +1,6 @@
 # ORANGE: Outcome-Oriented Predictive Process Monitoring Based on Image Encoding and CNNs
 
-#The repository contains code refered to the work:
+**The repository contains code refered to the work:**
 
 *Vincenzo Pasquadibisceglie, Annalisa Appice, Giovanna Castellano, Donato Malerba, Giuseppe Modugno*
 
