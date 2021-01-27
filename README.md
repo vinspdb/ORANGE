@@ -27,10 +27,10 @@ Please cite our work if you find it useful for your research and work.
   doi={10.1109/ACCESS.2020.3029323}}
 ```
 
-##Datasets and weights:
+## Datasets and weights:
 https://drive.google.com/file/d/1mqCPnN8GioybX9O1VUlJM5K27KNFfsI_/view?usp=sharing
 
-##Requirements:
+## Requirements:
 - Keras: 2.3.1
 - Tensorflow-gpu: 1.15
 - Pandas 
