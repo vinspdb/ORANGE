@@ -9,21 +9,13 @@
 Please cite our work if you find it useful for your research and work.
 ```
 @ARTICLE{9216173,
-
   author={V. {Pasquadibisceglie} and A. {Appice} and G. {Castellano} and D. {Malerba} and G. {Modugno}},
-
   journal={IEEE Access}, 
-
   title={ORANGE: Outcome-Oriented Predictive Process Monitoring Based on Image Encoding and CNNs}, 
-
   year={2020},
-
   volume={8},
-
   number={},
-
   pages={184073-184086},
-
   doi={10.1109/ACCESS.2020.3029323}}
 ```
 
